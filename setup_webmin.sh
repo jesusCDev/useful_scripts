@@ -35,5 +35,7 @@ if [MODE=="--deb"]; then
 else if [MODE=="--tar"]; then
 	install_tar
 else
-	echo "Deb or Tar File"
+	echo "First value must be --deb or --tar"
+	echo "Second value must be the package ID"
+	echo "Goto https://www.webmin.com/download.html"
 fi
